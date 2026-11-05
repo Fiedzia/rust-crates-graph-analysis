@@ -12,6 +12,6 @@ to replicate:
 2. Uncompress it somewhere, for example to /tmp/db
 3. Make sure you have uv installed to run this project
 4. Run processing scripts to generate nodes and edges files: `uv run run.py /tmp/db` 
-5. Go to https://run.cosmograph.app, load generated nodes.py and edges.py. For edges, set source and target as source and target columns
+5. Go to https://run.cosmograph.app, load generated nodes.csv and edges.csv. For edges, set source and target as source and target columns
 6. Tweak the graph to your liking
 
