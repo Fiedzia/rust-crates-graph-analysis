@@ -1,0 +1,21 @@
+[project]
+name = "crates-io-dump"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maciej Dziardziel", email = "fiedzia@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "gvgen>=1.0",
+    "pydot>=4.0.1",
+    "six>=1.17.0",
+]
+
+[project.scripts]
+crates-io-dump = "crates_io_dump:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
